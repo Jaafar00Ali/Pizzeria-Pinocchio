@@ -1,0 +1,113 @@
+/* ----------- NAVBAR ----------- */ 
+
+body {
+    font-family: "Assistant";
+}
+
+.Pizza_Icon {
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.navbar-brand {
+    margin-right: 3%;
+}
+
+.navbar {
+    background-color: #820000;
+}
+
+.dropdown {
+    margin-right: 8%;
+}
+
+/* ----------- Welcome section ----------- */
+
+
+
+
+
+/* ----------- fonts and font-colors ----------- */
+
+.lightgrey-font {
+    color: lightgray;
+}
+
+/* ----------- box styles ----------- */
+
+.black-box {
+    background-color: black;
+    height: 800px;
+    width: 100%;
+    padding: 5% 10%;
+    font-family: "Assistant"
+}
+
+.bordeau-box {
+    background-color: #820000;
+    height: 600px;
+}
+
+.Carousel-box {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* ----------- weekly card ----------- */
+
+.weekly-card-header {
+    margin: 0 10% auto;
+    text-align: center;
+}
+
+.weekly-card {
+    text-align: center;
+}
+
+#card-box {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+    margin: 5% 8% 5% 8%;
+    font-family: "Ubuntu";
+    font-family: "Assistant";
+    border-color: grey;
+    
+}
+
+.card-body {
+    height: 300px;
+    background-color: lightgray;
+}
+
+.card-info {
+    color: grey;
+}
+
+.card-name {
+    margin: auto 0;
+}
+
+.card-header {
+    background-color: #820000;
+    color: lightgray;
+}
+
+@media (max-width:800px) {
+    .black-box {
+        background-color: black;
+        height: 1500px;
+        width: 100%;
+        padding: 5% 10%;
+        font-family: "Assistant"
+    }
+}
